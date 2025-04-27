@@ -54,16 +54,10 @@ Using the 'fruits' list from #3:
 Print both results
 """
 # Answer No 4 here
-print("Answer No 4 here:")
-if 'mango' in fruits:
-    print("mango is in the list")
-else:
-    print("mango is not in the list")
 
-if 'apple' not in fruits:
-    print("apple is NOT in the list")
-else:
-    print("apple is in the list")
+firstCheck = 'mango' in fruits
+secondCheck = 'apple' not in fruits
+print("Answer No 4 here:", firstCheck, "and", secondCheck)
 
 """
 5. Tuple Basics
@@ -209,7 +203,7 @@ Hint: Check each sublist manually
 """
 # Answer No 14 here
 data = [1, [2, 3], 4, [5, 6]]
-print("Answer No 14 here: can't seem to figure this out")
+print("Answer No 14 here:", 3 in data[1] or 3 in data[3])
 
 """
 15. Complex Logical Check
