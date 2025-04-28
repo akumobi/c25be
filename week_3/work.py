@@ -109,7 +109,7 @@ Print both results
 """
 dict_a = {'x': 1, 'y': 2}
 dict_b = {'y': 2, 'x': 1, 'z': 3}
-
+print(dict_a == dict_b, dict_a is dict_b)
 """
 9. Complex List Operations
 Given the list: data = [1, [2, 3], [4, [5, 6]], 7]
@@ -119,6 +119,7 @@ Given the list: data = [1, [2, 3], [4, [5, 6]], 7]
 Print all results
 """
 data = [1, [2, 3], [4, [5, 6]], 7]
+print(data[2][1][1])
 
 """
 10. Combined Data Structure
